@@ -1,0 +1,82 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/Max/temp/canfduino/include",
+                "c:/Users/Max/temp/canfduino/src",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/CANFDuino",
+                "C:/Users/Max/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "C:/Users/Max/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/cores/arduino",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/variants/canfduino",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/FlashEEPROM",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/HID",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/I2S/src",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/SAMD_AnalogCorrection/src",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/SPI",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/USBHost/src",
+                "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/Wire",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/Max/temp/canfduino/include",
+                    "c:/Users/Max/temp/canfduino/src",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/CANFDuino",
+                    "C:/Users/Max/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "C:/Users/Max/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/cores/arduino",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/variants/canfduino",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/FlashEEPROM",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/HID",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/I2S/src",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/SAMD_AnalogCorrection/src",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/SPI",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/USBHost/src",
+                    "C:/Users/Max/.platformio/packages/framework-arduino-samd-canfduino/libraries/Wire",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60107",
+                "ARDUINO_SAMD_ZERO",
+                "__SAMC21G18A__",
+                "ARM_MATH_CM0PLUS",
+                "FLOAT_BOTH_DOUBLES_ONLY",
+                "TIMER_732Hz",
+                "CONFIG_H_DISABLED",
+                "CLOCKCONFIG_INTERNAL",
+                "USB_DISABLED",
+                "THREE_UART",
+                "ONE_WIRE",
+                "ONE_SPI",
+                "__8KB_BOOTLOADER__",
+                "ARDUINO=10805",
+                "F_CPU=48000000L",
+                "USBCON",
+                "USB_VID=0x16D0",
+                "USB_PID=0x0856",
+                "USB_PRODUCT=\"CANFDuino\"",
+                "USB_MANUFACTURER=\"Togglebit\"",
+                "ARDUINO_ARCH_SAMD",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/Max/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
